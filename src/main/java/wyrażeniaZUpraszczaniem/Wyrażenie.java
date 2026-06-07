@@ -8,7 +8,7 @@ public abstract class Wyrażenie {
         // Zakładam, że n > 0 oraz a>=b.
 
         assert n>0;
-        assert a>b; // BYŁ TU BŁĄD ja zrobiłem jednak błąd w testach xdd
+        assert a<=b; // BYŁ TU BŁĄD ja zrobiłem jednak błąd w testach xdd
 
         // Poniżej f oznacza wyrażenie this, x_0 = a, x_n=b.
 
